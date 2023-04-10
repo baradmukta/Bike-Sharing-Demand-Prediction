@@ -1,6 +1,7 @@
 # Regression-Capstone-Project---2
-#Regression Capstone Project on Bike Sharing Demand Pediction
+# Regression Capstone Project on Bike Sharing Demand Pediction
 What I have done in Project:
+
            * Importing the Libraries
            * Read the Data
            * Getting information about data like how many null values in the data, how many features in the data, etc
@@ -14,6 +15,7 @@ What I have done in Project:
            * Using LIME, getting the insights about the data that which features is impacting the data positively and negatively
 
 Different Models which are used in the Project:
+
         * Linear Regression
         * Ridge Regression
         * Decision Tree Regressor with GridSearchCV
