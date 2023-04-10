@@ -25,42 +25,42 @@ Different Models which are used in the Project:
         * XGBoost with RandomisedSearchCV
         
 # Conclusion:
-          * **Count of Rented Bike(dependent variable) : positively skewed**
-          * **Normally distributed attributes:** 
+          * Count of Rented Bike(dependent variable) : positively skewed
+          * Normally distributed attributes:
                         - Temperature
-                        - Humidity.
-          * **Positively skewed attributes:** 
+                        - Humidity
+          * Positively skewed attributes:
                         - Wind 
                         - Solar Radiation 
                         - Snowfall 
                         - Rainfall
-          * **Negatively skewed attributes:** 
+          * Negatively skewed attributes: 
                         - visibility
-          * **positively correlated variables to the bike rent are :** 
+          * Positively correlated variables to the bike rent are :
                         - Temperature
                         - Dew Point Temperature
                         - Solar Radiation
                         - Hour
 
-          * **And most negatively correlated variables are:**
+          * And most negatively correlated variables are:
                         - Humidity
                         - Rainfall
                         - Weekdays or Weekends
           * The number of bikes rented is on average higher during the rush hours.i.e. at 6 p.m. to 8 p.m.
-          * The **rented bike counts is higher during the summer and lowest during the winter**.
-          * The **rented bike count is higher on working days than on non-working days**.
-          * On a **non-functioning day, no bikes are rented** in all the instances of the data.
-          * The number of bikes rented on average remains constant throughout Monday - Saturday, it dips on Sunday, and on average, the **rented bike counts is lower on weekends than on weekdays**.
-          * On regular days, the demand for the bikes is higher during rush hours. **On holidays or weekends, the demand is comparatively lower in the mornings, and is higher in the afternoons**.
+          * The rented bike counts is higher during the summer and lowest during the winter.
+          * The rented bike count is higher on working days than on non-working days.
+          * On a non-functioning day, no bikes are rented in all the instances of the data.
+          * The number of bikes rented on average remains constant throughout Monday - Saturday, it dips on Sunday, and on average, the rented bike counts is lower on weekends than on weekdays.
+          * On regular days, the demand for the bikes is higher during rush hours. On holidays or weekends, the demand is comparatively lower in the mornings, and is higher in the afternoons.
 
-          **Conclusion after using different models:**
+          * Conclusion after using different models:
 
                 - No overfitting is seen.
                 - Random forest Regressor, Gradient Boosting gridsearchcv, XbBoost Regressor with GridSearchCV gives the highest R2 score .
                 - Feature Importance value for Random Forest, Gradient Boosting, XgBoost are different.
                 - We can deploy Random Forest, Gradient Boosting with  GridSearchCV, XgBoost with RandomizedSearchCV model.
 
-          **Important Feature which affect the most in the rented bike count:**
+          * Important Feature which affect the most in the rented bike count:
 
               * Functioning Day
               * Winter Season
@@ -68,7 +68,7 @@ Different Models which are used in the Project:
               * Temperature
               * Humidity
 
-          **Features wich impact Negatively on Rented Bike Count:**  
+          * Features wich impact Negatively on Rented Bike Count:  
 
               * Hour 4 i.e. 4 a.m.
               * Hour 5 i.e. 5 a.m.
@@ -77,7 +77,7 @@ Different Models which are used in the Project:
               * Rainfall 
               * weekdays_weekend
 
-          **Features wich impact Positively on Rented Bike Count:**
+          * Features wich impact Positively on Rented Bike Count:
 
               * Hour 18 i.e. 6 p.m.
               * Hour 19 i.e. 7 p.m.
